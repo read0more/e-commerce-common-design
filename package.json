@@ -1,6 +1,5 @@
 {
   "name": "e-commerce-common-design",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "description": "e-commerce common design",
@@ -18,8 +17,12 @@
   "files": [
     "/dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/read0more/e-commerce-common-design"
+  },
   "publishConfig": {
-    "access": "restricted"
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "dev": "vite",
